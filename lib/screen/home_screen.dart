@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ScaffoldMessenger.of(context).showSnackBar(SnackBar(
 
                     content:Text(" Not Connected"),
-                    backgroundColor:Colors.green,
+                    backgroundColor:Colors.red,
                 ));
               }
 

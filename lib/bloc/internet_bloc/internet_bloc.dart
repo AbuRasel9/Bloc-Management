@@ -26,7 +26,7 @@ class InternetBloc extends Bloc<InternetEvent,InternetState>{
   }
   @override
   Future<void> close() {
-    connectivitySubscription?.cancel();
+    // connectivitySubscription?.cancel();
     return super.close();
   }
 
